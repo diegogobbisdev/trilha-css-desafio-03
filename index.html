@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-left">
+            <i class="fas fa-bars"></i>
+            <div class="logo">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+        </div>
+        
+        <div class="header-center">
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div class="header-right">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa-bell"></i>
+            <div class="user-avatar"></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Conteúdo Principal -->
+        <main>
+            <div class="video-container">
+                <div class="video-player">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+                
+                <div class="video-info">
+                    <h1>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+                    
+                    <div class="video-actions">
+                        <div class="channel-info">
+                            <div class="channel-avatar">D</div>
+                            <div class="channel-details">
+                                <h3>DIO</h3>
+                                <span>83,3 mil inscritos</span>
+                            </div>
+                        </div>
+                        
+                        <button class="subscribe-btn">INSCREVER-SE</button>
+                        
+                        <div class="action-buttons">
+                            <div class="action-btn">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>2 mil</span>
+                            </div>
+                            <div class="action-btn">
+                                <i class="fas fa-thumbs-down"></i>
+                                <span>Não gostei</span>
+                            </div>
+                            <div class="action-btn">
+                                <i class="fas fa-share"></i>
+                                <span>Compartilhar</span>
+                            </div>
+                            <div class="action-btn">
+                                <i class="fas fa-download"></i>
+                                <span>Download</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="video-description">
+                        <div class="video-stats">
+                            <span>28.418 visualizações</span>
+                            <span>Transmitido ao vivo em 23 ago. de 2022</span>
+                        </div>
+                        <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criamos uma landing page com a temática de Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Sidebar com vídeos relacionados -->
+        <aside>
+            <h2>Conteúdos relacionados</h2>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>21 mil visualizações</span>
+                        <span>Transmitido há 2 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Scrum Talks</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>14 mil visualizações</span>
+                        <span>Transmitido há 3 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Machine Learning Avançado - Fast Track</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>1,7 mil visualizações</span>
+                        <span>Transmitido há 4 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Global Skills #2 - Project Planning</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>971 visualizações</span>
+                        <span>Transmitido há 5 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Como aprender a programar Python do ZERO</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>711 visualizações</span>
+                        <span>Transmitido há 6 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>21 mil visualizações</span>
+                        <span>Transmitido há 2 dias</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-video">
+                <div class="thumbnail"></div>
+                <div class="video-details">
+                    <h3>Scrum Talks</h3>
+                    <p>DigitalinvestidorOne</p>
+                    <div class="video-meta">
+                        <span>24 mil visualizações</span>
+                        <span>Transmitido há 3 dias</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
